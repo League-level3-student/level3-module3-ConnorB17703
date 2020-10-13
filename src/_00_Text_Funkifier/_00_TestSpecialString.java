@@ -2,7 +2,9 @@ package _00_Text_Funkifier;
 
 import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
+
 
 public class _00_TestSpecialString {
 
@@ -38,6 +40,6 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		//create a tester and method to capitalize all the vowels in the string.
 	}
 }
