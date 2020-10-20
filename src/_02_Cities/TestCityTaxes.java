@@ -21,6 +21,7 @@ public class TestCityTaxes {
 		cities.add(la);
 		cities.add(at);
 		
+		//*** YOU FINISHED LEVEL3 MODULE 3 ***
 		
 		assertEquals(3251200.00, cities.get(0).getAnnualTaxes(), 0.01);
 		assertEquals(1144412.80, cities.get(1).getAnnualTaxes(), 0.01);

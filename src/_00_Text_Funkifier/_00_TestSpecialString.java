@@ -40,6 +40,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-		//create a tester and method to capitalize all the vowels in the string.
+		SpecialString vs = new VowelCapString("This is a test");
+		System.out.println(vs);
+		assertEquals("thIs Is A tEst", vs.toString());
 	}
 }
